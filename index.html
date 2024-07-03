@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bijak</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Ini Header Navigation-->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+        <nav>
+            <a href="#home-direct">Home</a>
+            <a href="#profile-direct">Our Profile</a>
+            <a>Portofolio</a>
+            <a href="#mssg-direct">Message Us!</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+
+        <!--Ini Home Content-->
+        <section>
+            <header id="home-direct">
+                <h1 id="username">Hello Guest, Welcome to our website!</h1>
+            </header>
+
+            <article>
+                <p>Ini adalah website portofolio saya</p><br>
+
+                <div class="banner-container"></div>
+            </article>
+        </section>
+
+        <hr>
+
+        <!--Ini Profile Content-->
+        <section>
+            <header id="profile-direct">
+                <h1>Our Profile</h1>
+
+                <article class="profile-content">
+                    <div class="profile-item">
+                        <div class="profile-icon profile1"></div>
+                        <p>profile 1</p>
+                    </div>
+
+                    <div class="profile-item">
+                        <div class="profile-icon profile2"></div>
+                        <p>profile 2</p>
+                    </div>
+
+                    <div class="profile-item">
+                        <div class="profile-icon"></div>
+                        <p>profile 3</p>
+                    </div>
+                </article>
+            </header>
+        </section>
+        <hr>
+
+        <!--Ini Portofolio Content-->
+
+        <!--Ini Messsage Content-->
+        <section>
+            <header id="mssg-direct">
+                <h1>Message Us</h1>
+            </header>
+            <div>
+                <form id="myForm">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required><span class="required"></span><br><br>
+
+                    <label for="tanggal_lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><span
+                        class="required"></span><br><br>
+
+                    <div class="jenis-kelamin">
+                        <label for="jenis_kelamin">Jenis Kelamin:</label>
+                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" required>
+                        <label for="laki-laki">Laki-laki</label>
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>
+                        <label for="perempuan">Perempuan</label>
+                    </div><br>
+
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="30" required></textarea><span
+                        class="required"></span><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            </div>
+            <!-- Put Form Output here -->
+            <div id="output">
+                <p>Current time : <span id="current-time"></span></p>
+                <p>Nama : <span id="output-nama"></span></p>
+                <p>Tanggal Lahir : <span id="output-tanggal-lahir"></span></p>
+                <p>Jenis Kelamin : <span id="output-jenis-kelamin"></span></p>
+                <p>Pesan : <span id="output-pesan"></span></p>
+            </div>
+            <div id="space">
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+        <br>
+    </main>
+    <footer>
+        <p>Created by @Bijak</p>
+    </footer>
+</body>
+
+</html>
